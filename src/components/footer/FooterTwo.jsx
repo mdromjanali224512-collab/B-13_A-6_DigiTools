@@ -5,10 +5,10 @@ import { FaX, FaXTwitter } from 'react-icons/fa6';
 const FooterTwo = () => {
     return (
         <div className='bg-[#101727] '>
-            <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content py-30 p-5 max-w-[1200px] mx-auto">
+            <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content gap-5 py-30 p-5 max-w-[1200px] mx-auto">
                 <div className='col-span-2'>
                     <h1 className='text-5xl font-semibold text-white mb-4'>DigiTools</h1>
-                    <p className='text-[#A1A1AA] text-[16px]'>Premium digital tools for creators, professionals, and businesses. <br /> Work smarter with our suite of powerful tools.</p>
+                    <p className='text-[#A1A1AA] text-[16px]'>Premium digital tools for creators, professionals, <br /> and businesses.  Work smarter with our suite of powerful tools.</p>
                 </div>
                 {/* products */}
                 <nav>
@@ -59,13 +59,13 @@ const FooterTwo = () => {
     </div>
   </nav>
 </footer>
-<hr className='text-gray-600 mt-20'/>
-<div className='flex justify-between text-[#FAFAFA] text-[16px] items-center py-8'>
+<hr className='text-gray-600'/>
+<div className='max-w-[1200px] mx-auto text-center md:flex justify-between text-[#FAFAFA] text-[16px] items-center py-8'>
   <h1 className=''>© 2026 Digitools. All rights reserved.</h1>
-  <div className='flex justify-end items-center gap-10'>
-    <li>Privacy Policy</li>
-    <li>Terms of Service</li>
-    <li>Cookies</li>
+  <div className='flex md:justify-end items-center md:gap-10 gap-5 justify-center'>
+    <p>Privacy Policy</p>
+    <p>Terms of Service</p>
+    <p>Cookies</p>
   </div>
 </div>
         </div>

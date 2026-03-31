@@ -22,7 +22,7 @@ function App() {
 
 
   return (
-    <div  className=''>
+    <div  className='manrope mx-2'>
     <NavBar
     cartsData={cartsData}
     ></NavBar>

@@ -3,7 +3,7 @@ import { LiaCheckSolid } from 'react-icons/lia';
 
 const SimpleTransparents = () => {
     return (
-        <div className='max-w-[1200px] mx-auto mt-30'>
+        <div className='max-w-[1200px] mx-auto md:mt-30'>
             <div className='text-center mb-10'>
                 <h1 className='text-5xl text-[#101727] font-extrabold'>Simple, Transparent Pricing</h1>
                 <p className='text-[#627382] text-[16px] mb-10 mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
@@ -11,7 +11,7 @@ const SimpleTransparents = () => {
             {/* main cart container */}
             <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
                 {/* cart-1 */}
-            <div className="card bg-base-100 shadow-sm ">
+            <div className="card hover:scale-105 transition-all bg-base-100 shadow-sm ">
   <div className="card-body relative h-full w-full">
    
     <div className="">
@@ -44,13 +44,15 @@ const SimpleTransparents = () => {
   </div>
 </div>
             {/* cart-2 */}
-            <div className="card bg-[linear-gradient(99deg,rgba(197,9,235,1)_62%,rgba(186,74,97,1)_86%)] shadow-sm">
+            <div className="card hover:scale-105 transition-all bg-[linear-gradient(90deg,rgba(143,16,222,1)_11%,rgba(135,38,171,1)_77%,rgba(168,25,144,1)_97%)] shadow-sm">
   <div className="card-body">
-   
+   <div className='bg-amber-100 rounded-full flex items-center py-2 w-30 justify-center mx-auto -mt-12'>
+    <h1 className='font-medium text-[14px] text-[#BB4D00]'>Most Popular</h1>
+   </div>
     <div className="">
       <h2 className="text-2xl text-[#ffffff] font-bold">Pro</h2>
       <p className='text-[16px] text-[#ffffff] mt-2'>Best for professionals</p>
-      <h1 className="text-xl my-6 text-[#ffffff]"><span className='text-4xl  font-bold'>$29</span>/mo</h1>
+      <h1 className="text-xl my-6 text-[#ffffff]"><span className='text-4xl  font-bold'>$29</span>/month</h1>
     </div>
     <ul className=" flex flex-col gap-2 text-xs">
       <li className='flex items-center gap-2'>
@@ -89,13 +91,13 @@ const SimpleTransparents = () => {
   </div>
 </div>
    {/* cart-3 */}
-            <div className="card bg-base-100 shadow-md">
+            <div className="card hover:scale-105 transition-all bg-base-100 shadow-md">
   <div className="card-body">
    
     <div className="">
       <h2 className="text-2xl text-[#101727] font-bold">Enterprise</h2>
       <p className='text--[16px] text-[#627382] mt-2'>For teams and businesses</p>
-      <h1 className="text-xl my-6 text-[#627382]"><span className='text-4xl text-[#101727] font-bold'>$99</span>/mo</h1>
+      <h1 className="text-xl my-6 text-[#627382]"><span className='text-4xl text-[#101727] font-bold'>$99</span>/month</h1>
     </div>
     <ul className=" flex flex-col gap-2 text-xs">
       <li className='flex items-center gap-2'>

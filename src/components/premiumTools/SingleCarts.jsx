@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 
 const SingleCarts = ({datas,setCartsData,cartsData,coin,setCoin}) => {
@@ -8,6 +9,7 @@ const filterData=cartsData?.filter(data=>data.name !== datas.name)
 setCartsData(filterData)
 const newDecreseCoin=coin-datas.price
 setCoin(newDecreseCoin)
+toast.error('Remove Tools !!')
     }
     return (       
                            <div key={datas.id} className='p-7 bg-[#F9FAFC] rounded-sm flex items-center justify-between '>

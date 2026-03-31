@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "name": "AI Resume Builder",
-    "description": "Create professional resumes using AI assistance",
-    "price": 9,
+    "name": "AI Content Generator",
+    "description": "Generate high-quality content using AI tools",
+    "price": 20,
     "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
+    "tag": "new",
+    "tagType": "new",
     "features": [
-      "100+ templates",
-      "ATS optimization",
-      "AI suggestions",
-      "Export to PDF"
+      "Blog writing",
+      "Ad copy generation",
+      "SEO optimization",
+      "Multi-language support"
     ],
-    "icon": "https://i.ibb.co.com/rGBZtXXF/design-tool.png"
+    "icon": "https://cdn-icons-png.freepik.com/256/12822/12822619.png?semt=ais_white_label"
   },
   {
     "id": 2,
@@ -65,6 +65,22 @@
   },
   {
     "id": 5,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes using AI assistance",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "AI suggestions",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/rGBZtXXF/design-tool.png"
+  },
+  {
+    "id": 6,
     "name": "Email Marketing Tool",
     "description": "Automate and manage your email campaigns effectively",
     "price": 25,
@@ -78,21 +94,6 @@
       "Analytics reports"
     ],
     "icon": "https://i.ibb.co.com/HpMvY9zp/writing-2327400-1.png"
-  },
-  {
-    "id": 6,
-    "name": "AI Content Generator",
-    "description": "Generate high-quality content using AI tools",
-    "price": 20,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "Blog writing",
-      "Ad copy generation",
-      "SEO optimization",
-      "Multi-language support"
-    ],
-    "icon": "https://cdn-icons-png.freepik.com/256/12822/12822619.png?semt=ais_white_label"
   }
+   
 ]

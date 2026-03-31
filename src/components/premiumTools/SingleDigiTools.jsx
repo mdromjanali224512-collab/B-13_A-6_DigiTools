@@ -12,7 +12,7 @@ const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
         toast.success('Buy SuccessFul')
     }
     return (
-         <div className="card bg-base-100 shadow-md">
+         <div className="card bg-base-100 hover:scale-105 transition-all shadow-md">
           <div className="card-body">
            
            <div className='text-right'>

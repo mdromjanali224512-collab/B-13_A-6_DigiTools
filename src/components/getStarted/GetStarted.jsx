@@ -13,7 +13,7 @@ const GetStarted = () => {
             {/* main */}
             <div className='my-10 grid grid-cols-1 md:grid-cols-3 gap-8'>
                 {/* sub1 */}
-                <div className='flex  justify-center items-center'>
+                <div className='flex hover:scale-105 transition-all justify-center items-center'>
                     <div className='text-center space-y-4 p-6 rounded-md bg-white shadow-md py-20 relative'>
                         {/* count */}
                         <div className='h-10 w-10 flex items-center justify-center bg-[linear-gradient(27deg,rgba(63,94,251,1)_14%,rgba(240,36,77,1)_85%)] rounded-full absolute right-4 top-4'>
@@ -29,7 +29,7 @@ const GetStarted = () => {
                 </div>
                 </div>
                 {/* sub2 */}
-                <div className='flex  justify-center items-center'>
+                <div className='flex hover:scale-105 transition-all justify-center items-center'>
                     <div className='text-center space-y-4 p-6 rounded-md bg-white shadow-md py-20 relative'>
                         {/* count */}
                         <div className='h-10 w-10 flex items-center justify-center bg-[linear-gradient(27deg,rgba(63,94,251,1)_14%,rgba(240,36,77,1)_85%)] rounded-full absolute right-4 top-4'>
@@ -45,7 +45,7 @@ const GetStarted = () => {
                 </div>
                 </div>
                 {/* sub3 */}
-                <div className='flex  justify-center items-center'>
+                <div className='flex hover:scale-105 transition-all justify-center items-center'>
                     <div className='text-center space-y-4 p-6 rounded-md bg-white shadow-md py-20 relative'>
                         {/* count */}
                         <div className='h-10 w-10 flex items-center justify-center bg-[linear-gradient(27deg,rgba(63,94,251,1)_14%,rgba(240,36,77,1)_85%)] rounded-full absolute right-4 top-4'>
