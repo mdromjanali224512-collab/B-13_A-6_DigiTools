@@ -23,14 +23,14 @@ const NavBar = ({cartsData}) => {
               {link}  
       </ul>
     </div>
-    <h1 className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_25%,rgba(253,29,29,1)_51%,rgba(255,157,20,1)_88%)] bg-clip-text text-transparent text-4xl font-bold'>DigiTools</h1>
+    <h1 className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_25%,rgba(253,29,29,1)_51%,rgba(255,157,20,1)_88%)] bg-clip-text text-transparent text-4xl font-bold hidden md:block'>DigiTools</h1>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-2">
       {link}
     </ul>
   </div>
-  <div className="navbar-end gap-5">
+  <div className="navbar-end  gap-5">
     <div className='relative'>
       <CiShoppingCart size={30} className='relative'/>
       <span className='text-red-500 font-bold absolute right-0 -top-3'>{cartsData.length}</span>
