@@ -5,7 +5,7 @@ import { FaX, FaXTwitter } from 'react-icons/fa6';
 const FooterTwo = () => {
     return (
         <div className='bg-[#101727] '>
-            <footer className="grid grid-cols-2 gap-10 md:grid-cols-6 justify-between text-base-content py-30 p-10 max-w-[1200px] mx-auto">
+            <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content py-30 p-5 max-w-[1200px] mx-auto">
                 <div className='col-span-2'>
                     <h1 className='text-5xl font-semibold text-white mb-4'>DigiTools</h1>
                     <p className='text-[#A1A1AA] text-[16px]'>Premium digital tools for creators, professionals, and businesses. <br /> Work smarter with our suite of powerful tools.</p>
@@ -46,15 +46,15 @@ const FooterTwo = () => {
   {/* social */}
   <nav>
     <h6 className="text-xl font-medium text-[#ffffff] mb-4">Social Links</h6>
-    <div className="grid grid-flow-col gap-4">
-      <a className='h-15 flex items-center justify-center w-15 rounded-full bg-white'>
-       <FaCamera size={30}/>
+    <div className="flex flex-wrap gap-2">
+      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+       <FaCamera size={20}/>
       </a>
-      <a className='h-15 flex items-center justify-center w-15 rounded-full bg-white'>
-        <FaFacebook size={30}/>
+      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+        <FaFacebook size={20}/>
       </a>
-      <a className='h-15 flex items-center justify-center w-15 rounded-full bg-white'>
-        <FaXTwitter size={30}/>
+      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+        <FaXTwitter size={20}/>
       </a>
     </div>
   </nav>

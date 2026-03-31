@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes using AI assistance",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "AI suggestions",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/rGBZtXXF/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across multiple platforms",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Auto scheduling",
+      "Multi-platform support",
+      "Analytics dashboard",
+      "Bulk upload"
+    ],
+    "icon": "https://i.ibb.co.com/PGf0yfrg/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Website Builder",
+    "description": "Build websites easily with no coding required",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag and drop builder",
+      "Free hosting",
+      "SEO tools",
+      "Custom domain"
+    ],
+    "icon": "https://i.ibb.co.com/RpBFmJwd/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Graphic Design Tool",
+    "description": "Design stunning visuals with an easy-to-use editor",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "1000+ templates",
+      "Image editor",
+      "Brand kit",
+      "Multiple export formats"
+    ],
+    "icon": "https://i.ibb.co.com/KpC6Jj8g/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Tool",
+    "description": "Automate and manage your email campaigns effectively",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Email automation",
+      "Pre-built templates",
+      "Subscriber management",
+      "Analytics reports"
+    ],
+    "icon": "https://i.ibb.co.com/HpMvY9zp/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Content Generator",
+    "description": "Generate high-quality content using AI tools",
+    "price": 20,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Blog writing",
+      "Ad copy generation",
+      "SEO optimization",
+      "Multi-language support"
+    ],
+    "icon": "https://cdn-icons-png.freepik.com/256/12822/12822619.png?semt=ais_white_label"
+  }
+]

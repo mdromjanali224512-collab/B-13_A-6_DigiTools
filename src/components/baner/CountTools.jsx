@@ -3,6 +3,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
+
 const CountTools = () => {
     return (
       <div className='bg-[linear-gradient(90deg,rgba(2,0,36,1)_4%,rgba(9,9,121,1)_53%,rgba(2,171,228,1)_100%,rgba(84,167,184,1)_100%)]'>
@@ -19,10 +20,7 @@ const CountTools = () => {
         <h1 className='text-6xl text-[#ffffff] font-extrabold'>4.9</h1>
         <p className='font-medium text-2xl mt-3 text-[#ffffff]'>Rating</p>
        </div>
-       
-       
-          
-           
+         
         </div>
       </div>
     );
