@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { LiaCheckSolid } from 'react-icons/lia';
 import { toast } from 'react-toastify';
 
 const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
-    const {name,description,price,period,tag,tagType,features,icon}=data
+    const {name,description,price,period,tagType,features,icon}=data
     
     const buyDataHandle=()=>{
         const newCoin=coin+price;
@@ -15,6 +15,9 @@ const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
          <div className="card bg-base-100 shadow-md">
           <div className="card-body">
            
+           <div className='text-right'>
+ <h1 className={`font-medium text-[14px] btn rounded-full ${tagType==='popular' && 'btn-dash btn-secondary' || tagType==='new' && 'btn-dash btn-primary' || tagType==='best-seller' && 'btn-dash btn-success'}`}>{tagType}</h1>
+           </div>
             <div className="">
               <img className='h-15' src={icon} alt="" />
               <h1 className='text-[#101727] font-bold text-2xl my-4'>{name}</h1>

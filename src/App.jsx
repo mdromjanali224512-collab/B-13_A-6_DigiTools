@@ -23,7 +23,7 @@ const cartData=fethData()
     <NavBar></NavBar>
     <HeroSection></HeroSection>
    <CountTools></CountTools>
-   <Suspense>
+   <Suspense fallback={<h1>loading...</h1>}>
        <DigitalToolas cartData={cartData}></DigitalToolas>
    </Suspense>
    <GetStarted></GetStarted>
