@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { LiaCheckSolid } from 'react-icons/lia';
+import { toast } from 'react-toastify';
 
-const SingleDigiTools = ({data,cartsData,setCartsData}) => {
+const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
     const {name,description,price,period,tag,tagType,features,icon}=data
+    
     const buyDataHandle=()=>{
-        
+        const newCoin=coin+price;
+        setCoin(newCoin)
         setCartsData([...cartsData,data])
+        toast.success('Buy SuccessFul')
     }
     return (
          <div className="card bg-base-100 shadow-md">
@@ -19,7 +23,7 @@ const SingleDigiTools = ({data,cartsData,setCartsData}) => {
             </div>
             <ul className=" flex flex-col gap-2 text-xs">
             {
-                features.map(feature=><div>
+                features.map((feature,index)=><div key={index}>
                     <li className='flex items-center gap-2'>
                 <LiaCheckSolid className='text-[#30B868]'size={20}/>
                 <span className='text-[#627382] text-[16px] font-medium'>{feature}</span>

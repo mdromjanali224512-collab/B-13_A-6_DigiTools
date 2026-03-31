@@ -8,6 +8,7 @@ import GetStarted from './components/getStarted/GetStarted'
 import NavBar from './components/navbar/NavBar'
 import DigitalToolas from './components/premiumTools/DigitalToolas'
 import SimpleTransparents from './components/transparents/SimpleTransparents'
+import { ToastContainer } from 'react-toastify'
 
 const fethData=async ()=>{
   const data=await fetch('/cartData.json')
@@ -28,6 +29,7 @@ const cartData=fethData()
    <GetStarted></GetStarted>
    <SimpleTransparents></SimpleTransparents>
    <Footer></Footer>
+   <ToastContainer />
  </div>
 
   )
