@@ -2,13 +2,13 @@ import React, { use, useState } from 'react';
 import SingleDigiTools from './SingleDigiTools';
 import Cart from './Cart';
 
-const DigitalToolas = ({cartData}) => {
+const DigitalToolas = ({cartData,cartsData,setCartsData}) => {
    
     const datas=use(cartData)
-
+ const [coin,setCoin]=useState(0)
  const [active,setActive]=useState(true)
-    const [cartsData,setCartsData]=useState([])
-const [coin,setCoin]=useState(0)
+  
+
     const showAndHideHandle=()=>{
         setActive(!active)
     }

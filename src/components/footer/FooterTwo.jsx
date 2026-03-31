@@ -59,7 +59,15 @@ const FooterTwo = () => {
     </div>
   </nav>
 </footer>
-
+<hr className='text-gray-600 mt-20'/>
+<div className='flex justify-between text-[#FAFAFA] text-[16px] items-center py-8'>
+  <h1 className=''>© 2026 Digitools. All rights reserved.</h1>
+  <div className='flex justify-end items-center gap-10'>
+    <li>Privacy Policy</li>
+    <li>Terms of Service</li>
+    <li>Cookies</li>
+  </div>
+</div>
         </div>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 import { MdMenu } from 'react-icons/md';
 
-const NavBar = () => {
+const NavBar = ({cartsData}) => {
    const link= <div className='md:flex text-[16px] text-[#101727] font-semibold'>
    <li><a href="">Products</a></li>
    <li><a href="">Features</a></li>
@@ -31,7 +31,11 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end gap-5">
-    <CiShoppingCart size={30}/>
+    <div className='relative'>
+      <CiShoppingCart size={30} className='relative'/>
+      <span className='text-red-500 font-bold absolute right-0 -top-3'>{cartsData.length}</span>
+    </div>
+    
     <a className="text-[16px] font-semibold text-[#101727]">Login</a>
     <button className='bg-gradient-to-r from-purple-600 via-red-500 to-orange-400 text-[16px] rounded-full px-3 py-2 text-white'>Get Started</button>
   </div>

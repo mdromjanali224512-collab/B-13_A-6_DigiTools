@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import CountTools from './components/baner/CountTools'
 import HeroSection from './components/baner/HeroSection'
@@ -11,20 +11,30 @@ import SimpleTransparents from './components/transparents/SimpleTransparents'
 import { ToastContainer } from 'react-toastify'
 
 const fethData=async ()=>{
+
   const data=await fetch('/cartData.json')
   return data.json();
 }
-function App() {
 const cartData=fethData()
+function App() {
+     const [cartsData,setCartsData]=useState([])
+
 
 
   return (
     <div  className=''>
-    <NavBar></NavBar>
+    <NavBar
+    cartsData={cartsData}
+    ></NavBar>
     <HeroSection></HeroSection>
    <CountTools></CountTools>
    <Suspense fallback={<h1>loading...</h1>}>
-       <DigitalToolas cartData={cartData}></DigitalToolas>
+       <DigitalToolas
+        cartsData={cartsData}
+        cartData={cartData}
+       setCartsData={setCartsData}
+
+        ></DigitalToolas>
    </Suspense>
    <GetStarted></GetStarted>
    <SimpleTransparents></SimpleTransparents>
