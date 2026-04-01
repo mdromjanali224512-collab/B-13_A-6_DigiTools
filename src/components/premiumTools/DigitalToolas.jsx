@@ -15,7 +15,7 @@ const DigitalToolas = ({cartData,cartsData,setCartsData}) => {
    
     
     return (
-        <div className='mt-40 max-w-[1200px] mx-auto md:px-5'>
+        <div id='cart' className='mt-40 max-w-[1200px] mx-auto md:px-5'>
             <div className='text-center'>
                 <h1 className='text-[#101727] font-extrabold text-5xl'>Premium Digital Tools</h1>
                 <p className='text-[16px] text-[#627382] my-4 '>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>

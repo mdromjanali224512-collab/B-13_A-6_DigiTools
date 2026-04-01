@@ -3,6 +3,9 @@ import baner from '../../../assets/banner.png'
 import play from '../../../assets/play.png'
 import group from '../../../assets/group.png'
 const HeroSection = () => {
+  const onclickHandle=()=>{
+    alert('Nothing has been added yet')
+  }
     return (
         <div className="hero bg-base-200 px-5 py-20">
   <div className="hero-content flex-col lg:flex-row-reverse gap-20 md:gap-0">
@@ -27,8 +30,8 @@ software—all in one place. Start creating faster today. <br />
 Explore Products
       </p>
       <div className='flex gap-4 flex-wrap items-center'>
-        <button className="text-[16px] text-white btn bg-[linear-gradient(90deg,rgba(131,58,180,1)_43%,rgba(253,29,29,1)_100%,rgba(255,157,20,1)_96%)] rounded-full">Explore Products</button>
-        <button className="btn btn-primary btn-outline rounded-full flex items-center">
+        <button onClick={onclickHandle} className="text-[16px] text-white btn bg-[linear-gradient(90deg,rgba(131,58,180,1)_43%,rgba(253,29,29,1)_100%,rgba(255,157,20,1)_96%)] rounded-full">Explore Products</button>
+        <button onClick={onclickHandle} className="btn btn-primary btn-outline rounded-full flex items-center">
             <img src={play} alt="" />
             Watch Demo</button>
       </div>

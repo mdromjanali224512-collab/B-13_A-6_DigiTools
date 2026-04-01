@@ -5,11 +5,20 @@ import { toast } from 'react-toastify';
 const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
     const {name,description,price,period,tagType,features,icon}=data
     
+    const checkData=cartsData.some(filtering=>filtering.name === name)
     const buyDataHandle=()=>{
         const newCoin=coin+price;
+
+        
+        if(checkData){
+          alert("This tools purchased")
+          return;
+        }
         setCoin(newCoin)
-        setCartsData([...cartsData,data])
+setCartsData([...cartsData,data])
+        
         toast.success('Buy SuccessFul')
+       
     }
     return (
          <div className="card bg-base-100 hover:scale-105 transition-all shadow-md">
@@ -34,8 +43,17 @@ const SingleDigiTools = ({data,cartsData,setCartsData,coin,setCoin}) => {
                 </div>)
             }
             </ul>
+            {/* buy handle */}
             <div className="mt-5">
-              <button onClick={buyDataHandle} className="btn bg-[linear-gradient(90deg,rgba(100,7,240,1)_36%,rgba(156,39,219,1)_100%,rgba(186,48,217,1)_93%)]  text-[16px] rounded-full w-full text-white">Buy Now</button>
+              {
+                !checkData ?
+                   <button onClick={buyDataHandle} className={`btn bg-[linear-gradient(90deg,rgba(100,7,240,1)_36%,rgba(156,39,219,1)_100%,rgba(186,48,217,1)_93%)]  text-[16px] rounded-full w-full text-white `}>Buy Now</button>
+                   : 
+                   <button onClick={buyDataHandle} className={`btn text-[16px] rounded-full w-full text-white bg-[linear-gradient(90deg,rgba(131,58,180,1)_0%,rgba(253,29,29,1)_50%,rgba(252,176,69,1)_100%)]`}>
+                    <LiaCheckSolid size={20} className='stroke-2 text-green-500'/>
+                    Purchased</button>                
+              }
+             
             </div>
           </div>
         </div>

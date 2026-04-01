@@ -4,7 +4,7 @@ import packag from '../../../assets/package.png'
 import rocket from '../../../assets/rocket.png'
 const GetStarted = () => {
     return (
-        <div className='bg-[#F9FAFC] py-30'>
+        <div id='get' className='bg-[#F9FAFC] py-30'>
              <div className='max-w-[1200px] mx-auto '>
             <div className='space-y-5 text-center'>
                  <h1 className='text-[#101727] text-5xl font-extrabold'>Get Started in 3 Steps</h1>

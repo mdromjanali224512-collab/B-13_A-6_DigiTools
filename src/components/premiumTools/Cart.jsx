@@ -7,16 +7,15 @@ const Cart = ({ cartsData, setCartsData, coin ,setCoin}) => {
     
    const proceedDataDeleteHandle = () => {
         setCartsData([])
-console.log('aida first',cartsData);
         toast.success('Proceed Successful')
         setCoin(0)
     }
     return (
-        <div className='md:p-10 p-4 bg-[#F2F2F2]'>
+        <div id='cart' className='md:p-10 p-10 bg-[#F2F2F2]'>
             {
                 
                     cartsData.length === 0 ? <div className='text-center'>
-                    <h1 className='text-2xl font-bold text-[#101727] mb-8'>“Nothing bought”</h1>
+                    <h1 className='text-2xl font-bold text-[#101727] mb-3'>“Nothing bought”</h1>
                     <h1 className='text-[#627382] font-medium text-[16px]'>You haven’t bought any <span className='text-xl text-black font-medium'>premium digital tools</span> yet.
                     </h1>
                 </div>

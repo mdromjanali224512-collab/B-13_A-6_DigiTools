@@ -3,6 +3,9 @@ import { FaCamera, FaFacebook } from 'react-icons/fa';
 import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 const FooterTwo = () => {
+  const nothingHandle=()=>{
+    alert('Nothing has been added yet')
+  }
     return (
         <div className='bg-[#101727] '>
             <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content gap-5 py-30 p-5 max-w-[1200px] mx-auto">
@@ -47,13 +50,13 @@ const FooterTwo = () => {
   <nav>
     <h6 className="text-xl font-medium text-[#ffffff] mb-4">Social Links</h6>
     <div className="flex flex-wrap gap-2">
-      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+      <a onClick={nothingHandle} className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
        <FaCamera size={20}/>
       </a>
-      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+      <a onClick={nothingHandle} className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
         <FaFacebook size={20}/>
       </a>
-      <a className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
+      <a onClick={nothingHandle} className='h-13 flex items-center justify-center w-13 rounded-full bg-white'>
         <FaXTwitter size={20}/>
       </a>
     </div>
