@@ -24,7 +24,7 @@ const NavBar = ({cartsData}) => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
               {link}  
-              <a href="#get" className='bg-gradient-to-r from-purple-600 via-red-500 to-orange-400 text-[16px] rounded-full px-3 py-2 text-white text-center'>
+              <a href="#get" className='bg-gradient-to-r from-purple-600 via-red-500 to-orange-400 text-[16px] rounded-full  px-3 py-2 text-white text-center'>
                 Get Started
               </a>
                
@@ -51,7 +51,7 @@ const NavBar = ({cartsData}) => {
     
     <a onClick={featuresHandle} className="text-[16px] btn font-semibold text-[#101727]">Login</a>
     <a href="#get">
-      <button className='bg-gradient-to-r from-purple-600 hidden lg:block via-red-500 to-orange-400 text-[16px] rounded-full py-2 text-white'>Get Started</button>
+      <button className='bg-gradient-to-r from-purple-600 hidden lg:block via-red-500 to-orange-400 text-[16px] rounded-full px-4 py-2 text-white'>Get Started</button>
     </a>
     
   </div>
