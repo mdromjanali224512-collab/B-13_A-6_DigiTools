@@ -12,7 +12,7 @@ setCoin(newDecreseCoin)
 toast.error('Remove Tools !!')
     }
     return (       
-                           <div className='p-7 bg-[#F9FAFC] rounded-sm flex items-center justify-between '>
+                           <div className='md:p-7 px-2 py-5 bg-[#F9FAFC] rounded-sm flex items-center justify-between '>
                                 <div className='flex items-center gap-4'>
                                     <img className='h-17 w-17 rounded-full p-3 bg-[#F2F2F2]' src={datas.icon} alt="" />
                                     <div>

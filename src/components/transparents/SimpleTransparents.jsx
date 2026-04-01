@@ -3,7 +3,7 @@ import { LiaCheckSolid } from 'react-icons/lia';
 
 const SimpleTransparents = () => {
     return (
-        <div id='pricing' className='max-w-[1200px] mx-auto md:mt-30'>
+        <div id='pricing' className='max-w-300 mx-auto md:mt-30'>
             <div className='text-center mb-10'>
                 <h1 className='text-5xl text-[#101727] font-extrabold'>Simple, Transparent Pricing</h1>
                 <p className='text-[#627382] text-[16px] mb-10 mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>

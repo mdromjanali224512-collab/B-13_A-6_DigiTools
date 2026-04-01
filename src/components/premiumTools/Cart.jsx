@@ -11,7 +11,7 @@ const Cart = ({ cartsData, setCartsData, coin ,setCoin}) => {
         setCoin(0)
     }
     return (
-        <div id='cart' className='md:p-10 p-10 bg-[#F2F2F2]'>
+        <div id='cart' className='md:p-10 p-3 bg-[#F2F2F2]'>
             {
                 
                     cartsData.length === 0 ? <div className='text-center'>

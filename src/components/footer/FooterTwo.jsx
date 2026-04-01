@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCamera, FaFacebook } from 'react-icons/fa';
-import { FaX, FaXTwitter } from 'react-icons/fa6';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const FooterTwo = () => {
   const nothingHandle=()=>{
@@ -8,7 +8,7 @@ const FooterTwo = () => {
   }
     return (
         <div className='bg-[#101727] '>
-            <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content gap-5 py-30 p-5 max-w-[1200px] mx-auto">
+            <footer className="grid grid-cols-2 md:grid-cols-6 justify-between text-base-content gap-5 py-30 p-5 max-w-300 mx-auto">
                 <div className='col-span-2'>
                     <h1 className='text-5xl font-semibold text-white mb-4'>DigiTools</h1>
                     <p className='text-[#A1A1AA] text-[16px]'>Premium digital tools for creators, professionals, <br /> and businesses.  Work smarter with our suite of powerful tools.</p>
@@ -63,7 +63,7 @@ const FooterTwo = () => {
   </nav>
 </footer>
 <hr className='text-gray-600'/>
-<div className='max-w-[1200px] mx-auto text-center md:flex justify-between text-[#FAFAFA] text-[16px] items-center py-8'>
+<div className='max-w-300 mx-auto text-center md:flex justify-between text-[#FAFAFA] text-[16px] items-center py-8'>
   <h1 className=''>© 2026 Digitools. All rights reserved.</h1>
   <div className='flex md:justify-end items-center md:gap-10 gap-5 justify-center'>
     <p>Privacy Policy</p>

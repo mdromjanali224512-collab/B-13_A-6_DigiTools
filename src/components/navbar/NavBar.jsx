@@ -14,8 +14,8 @@ const NavBar = ({cartsData}) => {
    <li><a onClick={featuresHandle} href="">FAQ</a></li>
     </div>
     return (
-      <div className="navbar md:px-10 max-w-[1600px] mx-auto bg-base-100 shadow-sm">
-  <div className="navbar-start">
+      <div className="navbar md:px-10 max-w-400 mx-auto bg-base-100 shadow-sm">
+  <div className="navbar-start -ml-3 md:ml-0">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <MdMenu size={30}/>
@@ -30,7 +30,7 @@ const NavBar = ({cartsData}) => {
                
       </ul>
     </div>
-    <h1 className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_25%,rgba(253,29,29,1)_51%,rgba(255,157,20,1)_88%)] bg-clip-text text-transparent text-4xl font-bold '>DigiTools</h1>
+    <h1 className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_25%,rgba(253,29,29,1)_51%,rgba(255,157,20,1)_88%)] bg-clip-text text-transparent text-4xl font-bold -ml-3 md:ml-0'>DigiTools</h1>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-2">

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className=''>
             {/* footer */}
             <div className='bg-[linear-gradient(90deg,rgba(100,7,240,1)_36%,rgba(156,39,219,1)_100%,rgba(186,48,217,1)_93%)] mt-30 px-5'>
-            <div className='max-w-[1200px] mx-auto'>
+            <div className='max-w-300 mx-auto'>
                 <div className='text-center py-30'>
                     <h1 className='text-white text-[40px] font-extrabold mb-4'>Ready to Transform Your Workflow?</h1>
                     <p className='text-[#e4e9ee] mb-10 text-[16px]'>Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today.</p>
